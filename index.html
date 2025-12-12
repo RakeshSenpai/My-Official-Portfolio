@@ -3,29 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Rakesh Dev</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="loader">
-        <div class="loader-text">LOADING</div>
-        <div class="loader-bar">
-            <div class="loader-progress"></div>
+        <div class="loader-ball"></div>
+        <div class="progress-container">
+            <div class="progress-bar-wrapper">
+                <div class="progress-bar"></div>
+            </div>
+            <div class="progress-text">0%</div>
         </div>
     </div>
 
     <!-- Custom Cursor -->
     <div class="cursor"></div>
     <div class="cursor-follower"></div>
+    
     <!-- Navigation -->
     <nav>
-        <div class="logo">PORTFOLIO</div>
+        <div class="logo">RAKESH SENPAI</div>
         <div class="menu-toggle">
             <span class="menu-line"></span>
             <span class="menu-line"></span>
             <span class="menu-line"></span>
         </div>
     </nav>
+    
     <!-- Full Screen Menu -->
     <div class="fullscreen-menu">
         <div class="menu-content">
@@ -34,7 +39,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Expertise</a></li>
                 <li><a href="#work">Work</a></li>
-                <li><a href="#awards">Awards</a></li>
+                <li><a href="#awards">Experience</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -70,13 +75,13 @@
             <div class="about-image-wrapper">
                 <div class="image-overlay"></div>
                 <div class="about-image">
-                    <img src="IMG_6157.jpg" alt="">
+                    <img src="assets/images/albert-dera-ILip77SbmOE-unsplash (1).jpg" alt="">
                 </div>
             </div>
             <div class="about-text">
                 <p>I am a web developer focused on creating clean, fast and responsive digital experiences. I love turning simple ideas into real working projects.</p>
                 <p>I enjoy experimenting with design, animations, and JavaScript to give every project a smooth and modern feel.</p>
-                <p>I’m constantly leveling up my skills and building tools that make life simpler, smarter and more enjoyable.</p>
+                <p>I'm constantly leveling up my skills and building tools that make life simpler, smarter and more enjoyable.</p>
             </div>
         </div>
     </section>
@@ -232,10 +237,38 @@
             <h2 class="contact-title">Let's Create<br>Something Great</h2>
             <a href="mailto:shlrakesh04@gmail.com" class="contact-email">shlrakesh04@gmail.com</a>
             <div class="social-links">
-                <a href="#" class="social-link">LinkedIn</a>
-                <a href="#" class="social-link">GitHub</a>
-                <a href="#" class="social-link">X</a>
-                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">
+                    <div class="social-link-inner">
+                        <div class="social-link-front">LinkedIn</div>
+                        <div class="social-link-back">
+                            <img src="assets/images/linkedin-animated.gif" alt="">
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="social-link">
+                    <div class="social-link-inner">
+                        <div class="social-link-front">GitHub</div>
+                        <div class="social-link-back">
+                            <img src="assets/images/github-animated.gif" class="github">
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="social-link">
+                    <div class="social-link-inner">
+                        <div class="social-link-front">X</div>
+                        <div class="social-link-back">
+                            <img src="assets/images/twitter-animated.gif" class="twitter">
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="social-link">
+                    <div class="social-link-inner">
+                        <div class="social-link-front">Instagram</div>
+                        <div class="social-link-back">
+                            <img src="assets/images/instagram-animated.gif" class="insta">
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -250,6 +283,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
